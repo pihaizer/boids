@@ -1,0 +1,22 @@
+
+{
+  "default-registry": {
+    "kind": "git",
+    "baseline": "e77518e8c9a3149e4a0c888ab000371182b313f1",
+    "repository": "https://github.com/microsoft/vcpkg"
+  },
+  "registries": [
+    {
+      "kind": "artifact",
+      "location": "https://github.com/microsoft/vcpkg-ce-catalog/archive/refs/heads/main.zip",
+      "name": "microsoft"
+    },
+    {
+      "kind": "git",
+      "baseline": "e77518e8c9a3149e4a0c888ab000371182b313f1",
+      "repository": "https://github.com/Honeybunch/vcpkg",
+      "reference": "sdl3",
+      "packages": [ "sdl3" ]
+    }
+  ]
+}
